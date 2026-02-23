@@ -2,6 +2,10 @@
 
 One-file FastAPI authentication system with JWT tokens, user management, admin panel, and built-in frontend.
 
+## One Click Deploy
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1HiSNf?referralCode=-Xd4K_&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 ## Quick Start (Local)
 
 ```bash
@@ -10,12 +14,6 @@ python main.py
 # Open http://localhost:8080
 ```
 
-## Deploy to Railway
-
-1. Push this repo to GitHub
-2. Go to [Railway](https://railway.com) → New Project → Deploy from GitHub
-3. Add a **PostgreSQL** plugin (click + New → Database → PostgreSQL)
-4. Railway auto-sets `DATABASE_URL`. Add these optional env vars:
 
 | Variable | Default | Description |
 |---|---|---|
